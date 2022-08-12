@@ -5,7 +5,7 @@
     text-decoration: none;
     list-style: none;
     color: rgb(51, 49, 49);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
     /* border: 2px solid red; */
 }
 
@@ -13,6 +13,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 15px;
+    font-size: 12px;
 }
 .left{
     display: flex;
@@ -30,10 +32,13 @@
     margin-right: 10px;
 }
 .sign{
-    width: 60px;
-    height: 25px;
-    background-color: rgb(104, 118, 243);
+    width: 70px;
+    height: 30px;
+    background-color: #4285f4;
     color: white;
+    font-weight: bold;
+    border-radius: 2px;
+    border-style: none;
 }
 .section{
     display: flex;
@@ -92,11 +97,15 @@
     margin: 20px 0px 5px;
 }
 .buttons button{
-    width: 150px;
-    height: 40px;
+    width: 120px;
+    height: 36px;
     margin-right: 10px;
     border-style: none;
     color:rgb(117, 104, 104)
+}
+.buttons button :hover {
+    color: black;
+    border: 1px solid lightgray;
 }
 
 
@@ -116,17 +125,19 @@ footer{
     position: fixed;
     font-size: 14px;
     padding: 20px;
-    height: 82px;
+
 }
 .country{
     border-bottom: 1px solid #e4e4e4;
     color:#5f6368;
+    padding-bottom: 15px;
 
 }
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 15px;
 }
 .navbar a{
     text-decoration: none;
