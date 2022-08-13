@@ -13,7 +13,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 15px;
+    padding-top: 10px;
     font-size: 12px;
 }
 .left{
@@ -21,7 +21,7 @@
     justify-content: space-between;
     align-items: center;
     width: 90px;
-    margin-left:10px ;
+    margin-left:20px ;
 
 }
 .right{
@@ -29,7 +29,10 @@
     justify-content: space-between;
     align-items: center;
     width: 230px;
-    margin-right: 10px;
+    margin-right: 20px;
+}
+.right a :hover{
+    text-decoration: underline;
 }
 .sign{
     width: 70px;
@@ -55,7 +58,7 @@
 .searchbox{
     display: flex;
     justify-content: space-between;
-    position: relative;
+    /* position: relative; */
     margin: 20px;
     border-style: none;
     border: none;
@@ -63,31 +66,32 @@
 }
 .search{
     width: 450px;
-    height: 35px;
-    position: absolute;
+    height: 45px;
+    position: relative;
     align-items: center;
-    border-radius: 20px;
-    border: 2px solid rgb(192, 182, 182);
+    border-radius: 25px;
+    border: 2px solid lightgrey;
 
+}
+.searchbox :hover{
+    box-shadow: 3px 3px 5px lightgray;
 }
 .icons{
     position: relative;
-    /* border: 2px solid red; */
-    width: 450px;
-    height: 30px;
 }
+
 .magnify{
     border: none;
     position: absolute;
-    left: 15px;
-    top: 5px;
+    right: 410px;
+    top: 10px;
 
 }
 .micro{
     border: none;
     position: absolute;
     right: 15px;
-    top: 5px;
+    top: 10px;
 
 }
 .buttons{
@@ -103,9 +107,10 @@
     border-style: none;
     color:rgb(117, 104, 104)
 }
-.buttons button :hover {
+.btn:hover {
     color: black;
     border: 1px solid lightgray;
+    box-shadow: 0.7px 0.7px 0.7px lightgrey;
 }
 
 
